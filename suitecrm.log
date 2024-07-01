@@ -1,0 +1,55 @@
+Tue Jun 25 11:07:23 2024 [25976][1][SECURITY] OutboundEmail::checkSavePermissions - not logged in - skipping check
+Tue Jun 25 11:07:23 2024 [25976][1][FATAL] User update error: Temp User is not retrieved at ID 1, boolean given
+Tue Jun 25 11:07:23 2024 [25976][1][FATAL] Email address save error
+Tue Jun 25 11:07:27 2024 [25976][1][SECURITY] Invalid ext  logger_file_ext : ''.
+Tue Jun 25 11:07:27 2024 [25976][1][SECURITY] Setting logger_file_ext to '.log'.
+Tue Jun 25 11:07:27 2024 [25976][1][SECURITY] Setting logger_file_name to ''.
+Tue Jun 25 11:07:27 2024 [25976][1][SECURITY] Log file extension can't be blank.
+Tue Jun 25 11:07:27 2024 [25976][1][SECURITY] Setting logger_file_name to ''.
+Tue Jun 25 11:07:27 2024 [25976][1][SECURITY] Log file extension can't be blank.
+Tue Jun 25 11:31:24 2024 [25976][1][FATAL] log call at: modules/EmailMan/tpls/config.tpl - styleChecked is not set
+Wed Jun 26 10:31:26 2024 [15996][1][FATAL] User update error: Temp User is not retrieved at ID bcb9b626-e3fb-469c-44fb-667bd11396d3, boolean given
+Wed Jun 26 10:31:27 2024 [15996][1][FATAL] Email address save error
+Wed Jun 26 10:37:37 2024 [15996][bcb9b626-e3fb-469c-44fb-667bd11396d3][FATAL] DEBUG: token already sent
+Wed Jun 26 10:37:37 2024 [15996][bcb9b626-e3fb-469c-44fb-667bd11396d3][FATAL] SugarPHPMailer encountered an error: SMTP Error: Could not connect to SMTP host.
+Wed Jun 26 10:37:37 2024 [15996][bcb9b626-e3fb-469c-44fb-667bd11396d3][FATAL] SugarPHPMailer encountered an error: SMTP Error: Could not connect to SMTP host.
+Wed Jun 26 10:37:37 2024 [15996][bcb9b626-e3fb-469c-44fb-667bd11396d3][FATAL] Email sending for two factor email authentication via Email Code failed. Mailer Error Info: SMTP Error: Could not connect to SMTP host.
+Wed Jun 26 10:38:08 2024 [15996][bcb9b626-e3fb-469c-44fb-667bd11396d3][FATAL] DEBUG: token already sent
+Wed Jun 26 10:38:08 2024 [15996][bcb9b626-e3fb-469c-44fb-667bd11396d3][FATAL] SugarPHPMailer encountered an error: SMTP Error: Could not connect to SMTP host.
+Wed Jun 26 10:38:08 2024 [15996][bcb9b626-e3fb-469c-44fb-667bd11396d3][FATAL] SugarPHPMailer encountered an error: SMTP Error: Could not connect to SMTP host.
+Wed Jun 26 10:38:08 2024 [15996][bcb9b626-e3fb-469c-44fb-667bd11396d3][FATAL] Email sending for two factor email authentication via Email Code failed. Mailer Error Info: SMTP Error: Could not connect to SMTP host.
+Wed Jun 26 13:33:56 2024 [15996][bcb9b626-e3fb-469c-44fb-667bd11396d3][FATAL] DEBUG: token already sent
+Wed Jun 26 13:33:56 2024 [15996][bcb9b626-e3fb-469c-44fb-667bd11396d3][FATAL] SugarPHPMailer encountered an error: SMTP Error: Could not connect to SMTP host.
+Wed Jun 26 13:33:56 2024 [15996][bcb9b626-e3fb-469c-44fb-667bd11396d3][FATAL] SugarPHPMailer encountered an error: SMTP Error: Could not connect to SMTP host.
+Wed Jun 26 13:33:56 2024 [15996][bcb9b626-e3fb-469c-44fb-667bd11396d3][FATAL] Email sending for two factor email authentication via Email Code failed. Mailer Error Info: SMTP Error: Could not connect to SMTP host.
+Wed Jun 26 15:10:39 2024 [15996][1][FATAL] Mysqli_query failed.
+Wed Jun 26 15:10:39 2024 [15996][1][FATAL] Error inserting into table: upgrade_history: Query Failed: INSERT INTO upgrade_history (id,filename,md5sum,type,status,version,name,description,id_name,manifest,date_entered,enabled)
+					VALUES ('b8e61a55-4c4f-396b-642f-667c138e6b2b','upload/upgrades/module/project_Technical2024_06_26_150500.zip','332d583fe956b3297cef0708fe998964','module','installed','1719407100','project_Technical','','project_Technical','YTozOntzOjg6Im1hbmlmZXN0IjthOjEzOntpOjA7YToxOntzOjI1OiJhY2NlcHRhYmxlX3N1Z2FyX3ZlcnNpb25zIjthOjE6e2k6MDtzOjY6IjYuNS4yNSI7fX1pOjE7YToxOntzOjI0OiJhY2NlcHRhYmxlX3N1Z2FyX2ZsYXZvcnMiO2E6MTp7aTowO3M6MjoiQ0UiO319czo2OiJyZWFkbWUiO3M6MDoiIjtzOjM6ImtleSI7czo1OiJhZDEyZCI7czo2OiJhdXRob3IiO3M6NToiYWRtaW4iO3M6MTE6ImRlc2NyaXB0aW9uIjtzOjA6IiI7czo0OiJpY29uIjtzOjA6IiI7czoxNjoiaXNfdW5pbnN0YWxsYWJsZSI7YjoxO3M6NDoibmFtZSI7czoxNzoicHJvamVjdF9UZWNobmljYWwiO3M6MTQ6InB1Ymxpc2hlZF9kYXRlIjtzOjE5OiIyMDI0LTA2LTI2IDEzOjA1OjAwIjtzOjQ6InR5cGUiO3M6NjoibW9kdWxlIjtzOjc6InZlcnNpb24iO2k6MTcxOTQwNzEwMDtzOjEzOiJyZW1vdmVfdGFibGVzIjtzOjY6InByb21wdCI7fXM6MTE6Imluc3RhbGxkZWZzIjthOjI6e3M6MjoiaWQiO3M6MTc6InByb2plY3RfVGVjaG5pY2FsIjtzOjQ6ImNvcHkiO2E6MTp7aTowO2E6Mjp7czo0OiJmcm9tIjtzOjIwOiI8YmFzZXBhdGg+L1RlY2huaWNhbCI7czoyOiJ0byI7czozOToiY3VzdG9tL21vZHVsZWJ1aWxkZXIvcGFja2FnZXMvVGVjaG5pY2FsIjt9fX1zOjE2OiJ1cGdyYWRlX21hbmlmZXN0IjtzOjA6IiI7fQ==','2024-06-26 13:09:47',1): MySQL error 1062: Duplicate entry '332d583fe956b3297cef0708fe998964' for key 'upgrade_history_md5_uk'
+Wed Jun 26 15:10:39 2024 [15996][1][FATAL] Exception handling in C:\xampp\htdocs\simpleCRMdemo\include\MVC\Controller\SugarController.php:397
+Wed Jun 26 15:10:39 2024 [15996][1][FATAL] Exception in Controller: Database failure. Please refer to suitecrm.log for details.
+Wed Jun 26 19:36:13 2024 [15996][1][FATAL] Exception handling in C:\xampp\htdocs\simpleCRMdemo\include\MVC\Controller\SugarController.php:397
+Wed Jun 26 19:36:13 2024 [15996][1][FATAL] Exception in Controller: Error: Field Already Exists
+Thu Jun 27 07:49:59 2024 [15996][1][FATAL] Email address save error
+Thu Jun 27 07:50:43 2024 [15996][1][FATAL] Email address save error
+Thu Jun 27 11:20:41 2024 [15996][1][FATAL] Exception handling in C:\xampp\htdocs\simpleCRMdemo\include\MVC\Controller\SugarController.php:397
+Thu Jun 27 11:20:41 2024 [15996][1][FATAL] Exception in Controller: There is no action by that name: test
+Thu Jun 27 11:25:43 2024 [15996][1][FATAL] Exception handling in C:\xampp\htdocs\simpleCRMdemo\include\MVC\Controller\SugarController.php:397
+Thu Jun 27 11:25:43 2024 [15996][1][FATAL] Exception in Controller: There is no action by that name: test
+Thu Jun 27 13:26:18 2024 [15996][1][FATAL] Exception handling in C:\xampp\htdocs\simpleCRMdemo\include\MVC\Controller\SugarController.php:397
+Thu Jun 27 13:26:18 2024 [15996][1][FATAL] Exception in Controller: There is no action by that name: test
+Thu Jun 27 18:33:32 2024 [15996][1][FATAL] log call at: modules/EmailMan/tpls/config.tpl - styleChecked is not set
+Fri Jun 28 04:27:44 2024 [13356][1][FATAL] log call at: modules/EmailMan/tpls/config.tpl - styleChecked is not set
+Fri Jun 28 18:57:47 2024 [13356][1][FATAL] Exception handling in C:\xampp\htdocs\simpleCRMdemo\include\MVC\Controller\SugarController.php:397
+Fri Jun 28 18:57:47 2024 [13356][1][FATAL] Exception in Controller: Plugin 'smarty_modifier_strstr' not callable
+Fri Jun 28 18:59:03 2024 [13356][1][FATAL] Exception handling in C:\xampp\htdocs\simpleCRMdemo\include\MVC\Controller\SugarController.php:397
+Fri Jun 28 18:59:03 2024 [13356][1][FATAL] Exception in Controller: Plugin 'smarty_modifier_strstr' not callable
+Fri Jun 28 19:01:03 2024 [13356][1][FATAL] Exception handling in C:\xampp\htdocs\simpleCRMdemo\include\MVC\Controller\SugarController.php:397
+Fri Jun 28 19:01:03 2024 [13356][1][FATAL] Exception in Controller: Plugin 'smarty_modifier_strstr' not callable
+Fri Jun 28 19:02:24 2024 [13356][1][FATAL] Exception handling in C:\xampp\htdocs\simpleCRMdemo\include\MVC\Controller\SugarController.php:397
+Fri Jun 28 19:02:24 2024 [13356][1][FATAL] Exception in Controller: Plugin 'smarty_modifier_strstr' not callable
+Fri Jun 28 19:02:39 2024 [13356][1][FATAL] Exception handling in C:\xampp\htdocs\simpleCRMdemo\include\MVC\Controller\SugarController.php:397
+Fri Jun 28 19:02:39 2024 [13356][1][FATAL] Exception in Controller: Plugin 'smarty_modifier_strstr' not callable
+Fri Jun 28 19:02:44 2024 [13356][1][FATAL] Exception handling in C:\xampp\htdocs\simpleCRMdemo\include\MVC\Controller\SugarController.php:397
+Fri Jun 28 19:02:44 2024 [13356][1][FATAL] Exception in Controller: Plugin 'smarty_modifier_strstr' not callable
+Sat Jun 29 07:39:05 2024 [13356][1][FATAL] ZIP Error(0): Status(9)
+Sat Jun 29 07:40:06 2024 [13356][1][FATAL] ZIP Error(0): Status(9)
